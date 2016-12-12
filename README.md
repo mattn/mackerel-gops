@@ -1,6 +1,6 @@
 # mackerel-gops
 
-Upload [https://mackerel.io/](Mackerel) Custom Metrics from [gops](https://github.com/google/gops)
+Upload [Mackerel](https://mackerel.io/) Custom Metrics from [gops](https://github.com/google/gops)
 
 ## Usage
 
