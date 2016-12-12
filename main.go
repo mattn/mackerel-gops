@@ -51,6 +51,10 @@ func main() {
 		os.Exit(2)
 	}
 
+	if os.Getenv("MACKEREL_API_KEY") == "" {
+		log.Fatal("require $MACKEREL_API_KEY")
+	}
+
 	os.Setenv("GODEBUG", "http2client=0")
 
 	for {
